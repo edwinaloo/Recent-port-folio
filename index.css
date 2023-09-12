@@ -84,3 +84,15 @@ footer {
 }
 
 /* Customize further as needed */
+
+/* Add this CSS at the bottom of your landing.css file */
+
+/* Header Image Styling */
+.header-image {
+    width: 50%; /* Set the width to occupy a quarter of the screen */
+    max-width: 300px; /* Set a maximum width for larger screens */
+    display : block;
+    margin: 1rem auto; /* Center the image horizontally with some spacing */
+    height: 50;
+}
+
