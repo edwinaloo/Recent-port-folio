@@ -1,0 +1,81 @@
+/* Reset some default styles and set a background color */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Change the background color as needed */
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: hsl(217, 11%, 37%);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #9d9aa8;
+    color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* About section styles */
+#about {
+    padding: 20px;
+}
+
+/* Projects section styles */
+#projects {
+    padding: 20px;
+    background-color: #fff; /* Change the background color as needed */
+}
+
+.project-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff; /* Change the background color as needed */
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact section styles */
+#contact {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Additional styles can be added as needed */
