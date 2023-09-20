@@ -4,18 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDWIN ALOO - SOFTWARE ENGINEER PORTFOLIO</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        /* Global CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation bar */
+        ul {
+            /* background-color: #1339e2; */
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        /* CSS for the half-page image */
+        .half-page-image {
+            width: 20%;
+            height: auto; /* Maintain the image's aspect ratio */
+            display: block; /* Make the image a block-level element */
+            margin: 0 auto; /* Center the image horizontally on the page */
+        }
+
+        /* Project card CSS */
+        .project-card {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .project-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Add more CSS styles as needed */
+    </style>
 </head>
 <body>
     <!-- Navigation bar -->
-    <ul>
+    <ul class="navbar">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
-
-
 
     <!-- Landing Page Content -->
     <header>
@@ -41,9 +87,9 @@
         <h2>Projects</h2>
         <!-- Add projects here -->
         <div class="project-card">
-            <img src="" alt="Project 1 Screenshot">
-            <h3>Project 1</h3>
-            <p>Description of Project 1...</p>
+            <img src="Pics/IMG_20230914_202323.jpg" alt="Project 1 Screenshot" class="half-page-image">
+            <h3>Happy album cover</h3>
+            <p>This project is an album cover for an artist who released a new cover</p>
         </div>
 
         <div class="project-card">
